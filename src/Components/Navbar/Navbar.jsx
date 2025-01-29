@@ -33,8 +33,8 @@ const Navbar = () => {
           <div onClick={handleCloseMenu} className='flex justify-end p-3'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="currentColor"><path fill="none" d="M0 0h24v24H0z"></path><path d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"></path></svg></div>
           <div className='w-full h-full flex justify-center'>
           <div className='text-center'>
-            <Link to={'/about'}><p className='py-7'>About</p></Link>
-            <Link to={"/contact"}><p>Contact</p></Link>
+            <Link to={'/about'}><p className='py-7' onClick={handleCloseMenu}>About</p></Link>
+            <Link to={"/contact"} onClick={handleCloseMenu}><p>Contact</p></Link>
           </div>
           </div>
         </div>
