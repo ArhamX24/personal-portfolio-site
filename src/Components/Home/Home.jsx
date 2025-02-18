@@ -21,7 +21,7 @@ const Home = () => {
       </div>
       <div className='md:w-11/12 mx-auto w-full mt-8'>
       <p className='lg:text-5xl text-2xl font-medium'>Hello. I'm Arham Abdullah, A Web Developer who can make and maintain your website.</p>
-      <Link to={"https://drive.google.com/file/d/181_zGDCWHPYRxyKDOc3WjHpZtAYiJQyd/view?usp=drivesdk"} download={"ArhamAbdullahResume.pdf"} target="_blank" rel="noopener noreferrer"><p className="flex items-center justify-center border rounded-lg px-2 py-2 cursor-pointer social duration-300 ease-out w-1/2 mt-4">Download CV <svg className="ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(0,0,0,1)"><path d="M13 12H16L12 16L8 12H11V8H13V12ZM15 4H5V20H19V8H15V4ZM3 2.9918C3 2.44405 3.44749 2 3.9985 2H16L20.9997 7L21 20.9925C21 21.5489 20.5551 22 20.0066 22H3.9934C3.44476 22 3 21.5447 3 21.0082V2.9918Z"></path></svg></p></Link>
+      <Link to={"https://drive.google.com/file/d/1C7gsl1d6EDu3zQnI27ViFAQkMF1K8n-M/view?usp=drive_link"} download={"ArhamAbdullahResume.pdf"} target="_blank" rel="noopener noreferrer"><p className="flex items-center justify-center border rounded-lg px-2 py-2 cursor-pointer social duration-300 ease-out w-1/2 mt-4">Download CV <svg className="ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="rgba(0,0,0,1)"><path d="M13 12H16L12 16L8 12H11V8H13V12ZM15 4H5V20H19V8H15V4ZM3 2.9918C3 2.44405 3.44749 2 3.9985 2H16L20.9997 7L21 20.9925C21 21.5489 20.5551 22 20.0066 22H3.9934C3.44476 22 3 21.5447 3 21.0082V2.9918Z"></path></svg></p></Link>
       </div>
       </div>
       <div className='w-1/2 h-1/2 mx-auto md:flex items-center justify-center mt-5'>
